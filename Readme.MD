@@ -48,9 +48,11 @@
 
 18：DNS解析平台（BIND+MYSQL)
 
-19:LBS（HA/NGINX）平台
+19:SLB（HA/NGINX）平台
 
 20：文件服务器平台（TFS/GFS/GHFS)
+
+21：权限管理系统
 
 。。。。。。
 
