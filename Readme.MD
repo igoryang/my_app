@@ -46,7 +46,11 @@
 
 17:代码管理平台
 
-18：
+18：DNS解析平台（BIND+MYSQL)
+
+19:LBS（HA/NGINX）平台
+
+20：文件服务器平台（TFS/GFS/GHFS)
 
 。。。。。。
 
