@@ -1,0 +1,52 @@
+#20161221
+java发布系统：http://ci.izhaogang.com/
+.net发布系统：http://10.0.3.25
+4a-java堡磊机：http://4a.zhaogangren.com/login/
+UCM--windows堡磊机：
+http://audit.izhaogang.com/am5/wpe/WebPolicyEditor.jsp    后端系统
+http://audit.izhaogang.com/am5/ucmanager/UCManager.html   前台系统
+
+http://yun.zhaogangren.com/#/login   云平台  zstack
+
+https://www.tapd.cn/     代码需求平台
+
+http://opm.zhaogangren.com   运维后台系统
+http://ops.zhaogangren.com     运维前台系统 域账户登录 权限 陈海生开通
+http://report.zhaogangren.com
+http://security.zhaogangren.com/
+http://monitor.zhaogangren.com/network/branch/
+http://monitor.zhaogangren.com/bank/
+
+http://opswiki.zhaogangren.com/    wiki
+http://10.0.2.102:8081/nexus/                                     /usr/local/src/nexus-2.11.2-06/bin/nexus  restart
+http://git.zhaogangren.com/
+http://10.0.17.136/login
+http://network.zhaogangren.com/login/
+salt.zhaogangren.com   saltstack
+z.zhaogangren.com   zabbix
+
+
+架构相关：
+wiki:http://arch.doc.izhaogang.com/ 架构相关的应用和操作都在里面
+例如：
+JAVA项目配置中心：http://config.arch.zhaogangren.com/
+Kraken治理中心（SOA):UI: http://rc.soa.zhaogang.com/UI
+日志分析系统：seclog.arch.zhaogangren.com
+消息系统：tinyq.arch.zhaogangren.com
+调度系统：job.arch.zhaogangren.com
+应用日志系统：CAT
+http://cat.izhaogang.com/cat/r/t
+
+
+
+http://log.arch.zhaogangren.com/
++SystemAlias:"finance.fund.payment.api"+Content:"504"+Ip:"10.80.8.63"
+
+工程效率部：
+http://logquery.ops.zhaogangren.com/
+http://codereview.zhaogangren.com/   代码评审平台地址：http://codereview.zhaogangren.com/
+
+http://tstms.zhaogangren.com/login/index   测试用例
+
+http://xbrowser.ops.zhaogangrentest.com:3000/  多浏览器云
+   wiki地址：http://tswiki.zhaogangrentest.com/dokuwiki/
