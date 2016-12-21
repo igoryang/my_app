@@ -1,6 +1,6 @@
 *start my firt python job study all the time  Always learning  data 2016-12-21
 
-#综合管理平台(包含自动化运维平台）
+#综合管理平台(自动化运维平台）
 ##Flask 框架
 ##Ace 前端框架
 
