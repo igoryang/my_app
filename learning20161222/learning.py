@@ -4,6 +4,7 @@
 ''''''
 """
 变量
+python      python-jenkins   flask  django
 可变的量
 命名：字母，数字，下划线   不能以数字开头，区分大小写
 number = 3    #把3 赋值给变量number
@@ -51,6 +52,52 @@ print ( "this is format 0 {0},this is format 1 {1}".format(112,222))
 name = '3' if 1==1 else '4'
 print(name)
 
+lambda 匿名函数
+
+lambda x:print x
+
+内置函数
+abs()
+bool()
+bin()
+oct()
+hex()
+bytes("李李",encoding="utf-8")
+
+文件操作
+open()
+f = open('db','r')
+f = open('db','w')
+f = open('db','a')
+f = open('db','x')
+f = open('db','rb')
+
+文件打开open()
+文件操作  只读，只写，追加，
+文件关闭
+
+f.close()
+with open('d','a') as f:
+    pass
+
+file = open("db",'r',encoding="utf-8")  #打开文件  r 只读 ； w  只写 ；a 追加  ; x 文件不存在创建写入，存在报错；b 二进制；
+r+ ; w+; a+; x+;可读可写
+r+b;w+b;a+b;x+b;
+file.write()   #写入文件
+file.close()  #关闭文件
+file.flush()  #强制刷新
+file.seek()  #指针位置
+file.truncate()  #截断后面的数据
+file.read()  #读取所有
+file.readline()   #读取一行
+file.readable()   #读取文件的操作模式
 
 """
+file = open('db','r',encoding="utf-8")
+n = lambda a,b=5:a+b+10
+# bytes(n,encoding="utf-8")
+print(n(3))
+file.readable()
+print(file)
+
 
