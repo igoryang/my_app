@@ -3,6 +3,11 @@
 #author = 'igor'
 ''''''
 """
+
+python  1989年
+面向对象的编程语言
+解释型语言
+
 变量
 python      python-jenkins   flask  django
 可变的量
@@ -29,9 +34,9 @@ while Ture:
 
 
 函数：
-1，def
+1,def
 2,名称
-3，函数体
+3,函数体
 4,参数：
     普通参数
     指定参数
@@ -92,6 +97,12 @@ file.read()  #读取所有
 file.readline()   #读取一行
 file.readable()   #读取文件的操作模式
 
+chr()  ascii码 65-->A
+ord()  asci码B-->66
+s = chr(65)
+print(s)
+s1 = ord("B")
+print(s1)
 """
 file = open('db','r',encoding="utf-8")
 n = lambda a,b=5:a+b+10
@@ -99,5 +110,7 @@ n = lambda a,b=5:a+b+10
 print(n(3))
 file.readable()
 print(file)
-
-
+s = chr(65)
+print(s)
+s1 = ord("B")
+print(s1)
