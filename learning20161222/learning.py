@@ -103,6 +103,19 @@ s = chr(65)
 print(s)
 s1 = ord("B")
 print(s1)
+random  random.randrange(66,77)
+import random  #随机模块
+li = []
+for i in range(6):
+    temp = random.randrange(66,99)
+    c = chr(temp)
+    li.append(c)
+
+resutl = "".join(li)
+print (resutl)
+
+
+
 """
 file = open('db','r',encoding="utf-8")
 n = lambda a,b=5:a+b+10
@@ -114,3 +127,19 @@ s = chr(65)
 print(s)
 s1 = ord("B")
 print(s1)
+
+import random  #随机模块
+# i = random.randrange(1,10)
+# print (i)
+# i = random.randrange(1,10)
+# c = chr(i)
+# print (c)
+li = []
+for i in range(6):
+    temp = random.randrange(65,91)
+    c = chr(temp)
+    li.append(c)
+
+resutl = "".join(li)
+print (resutl)
+
