@@ -49,7 +49,7 @@ http://www.cnblogs.com/
 可依次选择进入各子菜单
 所需要知识点：列表、字典
 b-->back返回上级菜单
-q--quit
+q--》quit
 作业需求：
 1,流程图 在线processon.com
 2,Readme
