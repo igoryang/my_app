@@ -82,3 +82,8 @@ name9[0] = 333
 name9[4][0] = 444
 print(name9)
 print(name10)
+
+# import copy 模块
+# copy.copy() === name9.copy()    软链接
+# copy.deepcopy()  #深度COPY      硬链接
+
