@@ -52,6 +52,9 @@ if 9 in name3:
 
 name4 = [3,4,9,5,333,999,'ak','pk',999,332,'am','pm',9]
 
+position = name4.index(333)
+print(positon)
+
 for i in range(name4.count(9)):
     ele_index = name4.index(9)
     name4[ele_index] = 999999999
