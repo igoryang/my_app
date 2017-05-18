@@ -24,7 +24,7 @@ http://www.cnblogs.com/alex3714/articles/5465198.html
 11，数据运算
 12，表达式if ...else语句
 13，表达式for 循环
-14，break and continue
+14，break （跳出循环） and continue (跳出本次循环）
 15，表达式while 循环
 16，作业需求
 
