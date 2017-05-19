@@ -89,8 +89,8 @@ print(id_db)
 # dict.fromkeys([1,2,4,5],'abc') #坑 此处有坑
 #dict.popitem() 随机删除  慎用 不要用
 
-#循环字典  效率低
-# for k,v in id_db.items():  #不要这样写
+#循环字典
+# for k,v in id_db.items():  # 效率低 不要这样写
 #     print(k,v)
 for key in id_db:  #应该 一定要这样写字典循环
     print(key)
