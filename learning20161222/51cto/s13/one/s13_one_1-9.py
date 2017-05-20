@@ -8,6 +8,11 @@ python 1987 龟叔  面向对象的语言
 
 http://www.cnblogs.com/alex3714/articles/5465198.html
 
+先做需求分析---》流程图--》实现功能--》测试完善==》交付产品--修复bug和不断完善
+
+Blog 一定要写   整理学习点
+Readme 一定要写
+流程图一定要画
 
 
 本节内容
