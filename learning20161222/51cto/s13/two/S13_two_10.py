@@ -17,7 +17,7 @@ def login(username,password):
     #pass
     f = open("db",'r')
     for line in f:
-        line_list = line.split("|")
+        line_list = line.strip().split("|")  #strip() 移除 换行符 空格
         if line_list[0] == username and line_list[1] == password:
             return True
         else:
