@@ -14,7 +14,7 @@
 
 二：服务器管理平台
 
-三：监控平台
+三：监控平台(基础监控，应用监控，数据库监控，日志监控大盘，网络监控) openFalcon;zabbix;nagios;cacti;天兔;cat;ZoneMinder;
 
 四：数据库平台
 
