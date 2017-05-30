@@ -30,18 +30,37 @@ def add(backend,record):
     #思路一  先检查记录是否存在，读一遍；
     record_list = fetch(backend)
     if not record_list:
-        with open("HA.cfg",'r') as old,open("new.cfg",'r') as new:
+        #backend存在
+        with open("HA.cfg",'r+',encoding="utf-8") as old,open("HA_new.cfg",'r+',encoding="utf-8") as new:
             for line in old:
                 new.write(line)
             new.write("\nbackend " + backend + "\n")
             new.write(" "*8 + record_list + "\n")
+
     else:
-        pass
+        #backend不存在
+        if record in record_list:
+            #record已经存在
+            # import shutil
+            # shutil.copy("HA.cfg","HA_new.cfg")
+
+            pass
+        else:
+            #backend存在，record不存在
+            #record不存在
+            with open("HA.cfg",'r') as old,open("HA_new.cfg",'r') as new:
+
+    # return
 
     # print(record_list)
-ret_add = add('www.oldboy.org',"xxxx")
+bk = "www.oldboy.org"
+rd = "server 100.1.7.30 100.1.7.30 weight 20 maxconn 3000"
+
+ret_add = add(bk,rd)
+print(ret_add)
+
 # s = "[11,22,33,44]"
-# s1 = '{"k1":"v1"}'    #里面的字符串必须用"" s1 = '{"k1":"v1"}'
+# s1 = '{"k1":"v1"}'    #里面的字符串必须用""   s1 = '{"k1":"v1"}'
 # print(s,type(s))
 # print(s1,type(s1))
 #
