@@ -117,10 +117,10 @@ def remove(dict_info):
     os.rename('ha.new','ha')
 
 if __name__ == '__main__':
-    """
-    print '1、获取；2、添加；3、删除'
-    num = raw_input('请输入序号：')
-    data = raw_input('请输入内容：')
+
+    print( '1、获取；2、添加；3、删除')
+    num = input('请输入序号：')
+    data = input('请输入内容：')
     if num == '1':
         fetch(data)
     else:
@@ -131,7 +131,7 @@ if __name__ == '__main__':
             remove(dict_data)
         else:
             pass
-    """
+
     #data = "www.oldboy.org"
     #fetch(data)
     #data = '{"backend": "tettst.oldboy.org","record":{"server": "100.1.7.90","weight": 20,"maxconn": 30}}'
