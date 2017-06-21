@@ -17,7 +17,7 @@ def backend_read(conf):
     show_dict = {}                                                          ###初始化要返回的显示字典###
     backend_name_dict = defaultdict(list)                                   ###定义一个value为列表的字典，用来存放server###
     server_flag = False                                                     ###初始化server判断标志位###
-    with open(conf,'r') as ha:                                             ###打开haproxy配置文件###
+    with open(conf,'r',encoding="utf-8") as ha:                                             ###打开haproxy配置文件###
         for line in ha:
             server_dict = OrderedDict()                                      ###定义一个有序字典###
             line = line.strip('\n')
