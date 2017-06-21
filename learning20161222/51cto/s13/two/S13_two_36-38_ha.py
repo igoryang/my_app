@@ -9,7 +9,7 @@ HA
 
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-import json
+import W_file_json
 import os
 
 
@@ -124,7 +124,7 @@ if __name__ == '__main__':
     if num == '1':
         fetch(data)
     else:
-        dict_data = json.loads(data)
+        dict_data = W_file_json.loads(data)
         if num == '2':
             add(dict_data)
         elif num == '3':

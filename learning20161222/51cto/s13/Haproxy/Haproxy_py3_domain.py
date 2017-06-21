@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import os,sys,time,re,prettytable,json
+import os,sys,time,re,prettytable,W_file_json
 from collections import defaultdict,OrderedDict
 #conf='haproxy.cfg'  ###指定haproxy配置文件###
 conf='haproxy-10.80.8.30.cfg'  ###指定haproxy配置文件###
