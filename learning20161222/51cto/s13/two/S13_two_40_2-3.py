@@ -16,7 +16,11 @@ __author__ = 'YangGang'
 #     return
 
 def outer(func):
-    return "111"
+    def inner():
+        print('before')
+        func()
+        print('after')
+    return inner
 
 #@ +函数名  放在某个函数功能上面
 # 功能1：自动执行outer函数 并且将其下面的函数名f 1当作参数传递
